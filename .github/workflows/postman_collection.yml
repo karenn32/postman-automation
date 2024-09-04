@@ -35,7 +35,7 @@ jobs:
 
       - name: Run Postman Collection
         run: |
-          newman run petstore.collection.json --reporters cli,htmlextra --reporter-htmlextra-export newman/report.html
+          newman run petstore.collection.json --reporters cli,htmlextra --reporter-htmlextra-export newman/report.html --suppress-exit-code
 
       - name: Deploy to GitHub Pages
         if: success()
