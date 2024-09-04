@@ -22,9 +22,10 @@ jobs:
         run: |
           npm install
 
-      - name: Start the server
+      - name: Copy database file and start YAML server
         run: |
-          npm run tern-on-api
+          cp mockApi/db_back_up.yaml mockApi/db_stage.yaml
+          npx yaml-server --hotReload=off --autoStart=off --port 3000 --database ./mockApi/db_stage.yaml &
         env:
           PORT: 3000
 
@@ -38,7 +39,7 @@ jobs:
 
       - name: Run Postman Collection
         run: |
-          newman run store.collection.json \
+          newman run ./path/to/your/store.collection.json \
             --reporters cli,html \
             --reporter-html-export newman/report.html
 
@@ -47,4 +48,3 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.POSTMAN_TOKEN }}
-          publish_dir: ./newman
