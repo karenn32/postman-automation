@@ -31,11 +31,11 @@ jobs:
 
       - name: Install newman
         run: |
-          npm install -g newman newman-reporter-html
+          npm install -g newman newman-reporter-htmlextra
 
       - name: Run Postman Collection
         run: |
-          newman run store.collection.json --reporters cli,html --reporter-html-export newman/report.html
+          newman run ./path/to/your/store.collection.json --reporters cli,htmlextra --reporter-htmlextra-export newman/report.html
 
       - name: Deploy to GitHub Pages
         if: success()
