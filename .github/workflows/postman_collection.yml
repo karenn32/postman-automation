@@ -35,12 +35,11 @@ jobs:
 
       - name: Run Postman Collection
         run: |
-          newman run store.collection.json \
-            --reporters cli,html \
-            --reporter-html-export newman/report.html
+          newman run store.collection.json --reporters cli,html --reporter-html-export newman/report.html
 
       - name: Deploy to GitHub Pages
         if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.POSTMAN_TOKEN }}
+          publish_dir: ./newman
