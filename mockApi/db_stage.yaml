@@ -1,0 +1,318 @@
+products:
+  - id: 1
+    name: tomato
+    price: 10
+    sku: 1232143543543
+    description: They are usually red, scarlet, or yellow, though green and purple
+      varieties do exist, and they vary in shape from almost spherical to oval
+      and elongate to pear-shaped.
+  - id: 2
+    name: lettuce
+    price: 20
+    sku: 999921312423
+    description: Most lettuce varieties are eaten fresh and are commonly served as
+      the base of green salads
+  - id: 3
+    name: apple
+    price: 30
+    sku: 999921312423312
+    description: awesome
+orders:
+  - id: 1
+    name: order1
+    sku: 1232143543543
+  - id: 2
+    name: order2
+    sku: 999921312423
+  - id: 3
+    name: order2
+    sku: 999921312423312
+users:
+  - id: 1
+    firstName: Alice
+    lastName: Smith
+    email: alice.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: admin
+  - id: 2
+    firstName: Bob
+    lastName: Smith
+    email: bob.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 3
+    firstName: Joe
+    lastName: Smith
+    email: joe.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 4
+    firstName: Vesta
+    lastName: Smith
+    email: vesta.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 5
+    firstName: Dax
+    lastName: Smith
+    email: dax.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 6
+    firstName: naruto
+    lastName: Smith
+    email: naruto.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 7
+    firstName: saske
+    lastName: Smith
+    email: saske.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 8
+    firstName: kukareku
+    lastName: kukareku
+    email: kukareku.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: false
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 9
+    firstName: asdasd
+    lastName: asd
+    email: asdasd.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: false
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - firstName: Dream
+    lastName: Real
+    email: dream.real@gmail.com
+    dateOfBirth: 2001-10-99
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: lord
+    id: 10
+  - firstName: Dream
+    lastName: Real
+    email: dream.real@gmail.com
+    dateOfBirth: 2001-10-99
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: lord
+    id: 11
+  - firstName: Dream
+    lastName: Real
+    email: dream.real@gmail.com
+    dateOfBirth: 2001-10-99
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: lord
+    id: 12
+  - firstName: TestUser1
+    lastName: LastName1
+    email: testuser1@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 13
+  - firstName: TestUser2
+    lastName: LastName2
+    email: testuser2@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 14
+  - firstName: TestUser3
+    lastName: LastName3
+    email: testuser3@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 15
+  - firstName: TestUser6
+    lastName: LastName6
+    email: testuser6@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 16
+  - firstName: TestUser4
+    lastName: LastName4
+    email: testuser4@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 17
+  - firstName: TestUser5
+    lastName: LastName5
+    email: testuser5@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 18
+  - firstName: TestUser7
+    lastName: LastName7
+    email: testuser7@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 19
+  - firstName: TestUser8
+    lastName: LastName8
+    email: testuser8@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 20
+  - firstName: TestUser9
+    lastName: LastName9
+    email: testuser9@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 21
+  - firstName: TestUser10
+    lastName: LastName10
+    email: testuser10@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 22
+  - firstName: TestUser11
+    lastName: LastName11
+    email: testuser11@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 23
+  - firstName: TestUser12
+    lastName: LastName12
+    email: testuser12@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 24
+  - firstName: TestUser13
+    lastName: LastName13
+    email: testuser13@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 25
+  - firstName: TestUser14
+    lastName: LastName14
+    email: testuser14@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 26
+  - firstName: TestUser15
+    lastName: LastName15
+    email: testuser15@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 27
+  - firstName: TestUser16
+    lastName: LastName16
+    email: testuser16@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 28
+  - firstName: TestUser17
+    lastName: LastName17
+    email: testuser17@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 29
+  - firstName: TestUser18
+    lastName: LastName18
+    email: testuser18@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 30
+  - firstName: TestUser19
+    lastName: LastName19
+    email: testuser19@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 31
+  - firstName: TestUser20
+    lastName: LastName20
+    email: testuser20@example.com
+    dateOfBirth: 2000-01-01
+    emailVerified: true
+    signUpDate: 2023-09-01T00:00:00Z
+    status: active
+    level: user
+    id: 32
